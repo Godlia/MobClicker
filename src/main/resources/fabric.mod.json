@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "mobclicker",
+  "version": "${version}",
+  "name": "MobClicker",
+  "description": "Autoclicks when there is a mob infront of you",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/mobclicker/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.godlia.mobclicker.client.MobclickerClient"
+    ]
+  },
+  "mixins": [
+    "mobclicker.mixins.json",
+    {
+      "config": "mobclicker.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "fabric-key-binding-api-v1": "*"
+  }
+}
