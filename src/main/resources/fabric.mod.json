@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "MobClicker",
   "description": "Autoclicks when there is a mob infront of you",
-  "authors": [""],
+  "authors": ["Godlia"],
   "contact": {},
   "license": "GPL-3.0",
   "icon": "assets/mobclicker/icon.png",
